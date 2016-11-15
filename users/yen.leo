@@ -74,7 +74,6 @@
 <v t="amd.20161004083800.110"><vh>引用程式碼</vh></v>
 <v t="amd.20161004083800.115"><vh>無序表列</vh></v>
 <v t="amd.20161004083800.121"><vh>有序表列</vh></v>
-<v t="amd.20161004083800.158"><vh>轉為 PDF 檔案</vh></v>
 <v t="amd.20161004083800.162"><vh>全域狀態應用</vh></v>
 <v t="amd.20161004083800.166"><vh>狀態事件應用</vh></v>
 </v>
@@ -107,6 +106,16 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
+<v t="leo.20161115170619.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161115170619.3"><vh>Recovered node "head" from @clean index.html</vh>
+<v t="leo.20161115170619.4"><vh>old:head</vh></v>
+<v t="leo.20161115170619.5"><vh>new:head</vh></v>
+</v>
+<v t="leo.20161115170619.6"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161115170619.7"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161115170619.8"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -208,14 +217,6 @@ print("hello")
     &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="amd.20161004083800.158">&lt;section&gt;
-    &lt;h2&gt;Export to PDF&lt;/h2&gt;
-    &lt;p&gt;
-    Presentations can be &lt;a href="https://github.com/hakimel/reveal.js#pdf-export"&gt;exported to PDF&lt;/a&gt;, here's an example:
-    &lt;/p&gt;	
-    &lt;iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
-&lt;/section&gt;				
-</t>
 <t tx="amd.20161004083800.162">&lt;section&gt;
 &lt;h2&gt;Global State&lt;/h2&gt;
 &lt;p&gt;
@@ -245,7 +246,7 @@ apply broader style changes, like switching the page background.
 <t tx="amd.20161004083800.2">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;    
-2016 Fall 計算機程式課程
+s40523116工具剛的計算機程式課程
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -441,7 +442,7 @@ make.start()
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 2016Fall CPA 計算機程式課程
+<t tx="amd.20161004095719.2"># s40523116工具剛的計算機程式課程
 
 ### THE HTML PRESENTATION FRAMEWORK
 
@@ -507,14 +508,7 @@ and images can be specified like so:
 
 						
 </t>
-<t tx="amd.20161004104641.2"># 機械設計主題教學
-
-### 1. 強化創造能力 
-(Creative Competencies, CC1-3)
-### 2. 熟習六種表達 
-(Six Presentation Methods, SP1-6)
-### 3. 融入協同設計 
-(Collaborative Designs, CD1-4)
+<t tx="amd.20161004104641.2">
 
 </t>
 <t tx="amd.20161004104820.1">&lt;section&gt;
@@ -724,5 +718,144 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161115170619.2"></t>
+<t tx="leo.20161115170619.3">(uncached) amd.20161004083800.2
+Diff...
+  &lt;head&gt;
+      &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;    
+- s40523116工具剛的計算機程式課程
++ 2016 Fall 計算機程式課程
+  &lt;/title&gt;
+      &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+      &lt;meta name="author" content="Hakim El Hattab"&gt;
+      
+      &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+      &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+      
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+      
+      &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+      &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+      
+      &lt;!-- Theme used for syntax highlighting of code --&gt;
+      &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+  
+      &lt;!-- Printing and PDF exports --&gt;
+      &lt;script&gt;
+          var link = document.createElement( 'link' );
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+          document.getElementsByTagName( 'head' )[0].appendChild( link );
+      &lt;/script&gt;
+  
+      &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+      &lt;![endif]--&gt;
+  &lt;/head&gt;
+  
+</t>
+<t tx="leo.20161115170619.4">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;    
+2016 Fall 計算機程式課程
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="leo.20161115170619.5">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;    
+s40523116工具剛的計算機程式課程
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="leo.20161115170619.6">(uncached) amd.20161004095719.2
+Diff...
+- # s40523116工具剛的計算機程式課程
++ # 2016Fall CPA 計算機程式課程
+  
+  ### THE HTML PRESENTATION FRAMEWORK
+  
+  &lt;small&gt;
+  Created by [KMOL](http://chiamingyen.github.io/kmolab/blog/)
+  &lt;/small&gt;
+  
+  [blog](blog/index.html)
+</t>
+<t tx="leo.20161115170619.7"># 2016Fall CPA 計算機程式課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [KMOL](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
+<t tx="leo.20161115170619.8"># s40523116工具剛的計算機程式課程
+
+### THE HTML PRESENTATION FRAMEWORK
+
+&lt;small&gt;
+Created by [KMOL](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[blog](blog/index.html)
+</t>
 </tnodes>
 </leo_file>
