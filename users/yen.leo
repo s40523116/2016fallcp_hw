@@ -97,14 +97,10 @@
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
-<v t="leo.20170106135516.1"><vh>@edit 20161014.md</vh></v>
-<v t="leo.20170106135604.1"><vh>@edit 20161104.md</vh></v>
-<v t="leo.20170106135604.2"><vh>@edit 20161105.md</vh></v>
-<v t="leo.20170106135604.3"><vh>newHeadline</vh></v>
 <v t="leo.20170106142328.1"><vh>@edit 20161121.md</vh></v>
 <v t="leo.20170106135604.4"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20170106135605.1"><vh>@edit 20161204.md</vh></v>
-<v t="leo.20170106135605.2"><vh>@clean 20161206.md</vh></v>
+<v t="leo.20170106135605.2"><vh>@edit 20161206.md</vh></v>
 <v t="leo.20170106135605.3"><vh>@edit 20161223.md</vh></v>
 <v t="leo.20170106135605.4"><vh>@edit 20161230.md</vh></v>
 <v t="leo.20170106135606.1"><vh>@edit 20161231.md</vh></v>
@@ -112,10 +108,8 @@
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
-<v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
-<v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
-</v>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094829.1"><vh>yen 所寫的 pages 文章</vh></v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="leo.20161115170619.2" a="E"><vh>Recovered Nodes</vh>
@@ -869,37 +863,5 @@ Created by [KMOL](http://chiamingyen.github.io/kmolab/blog/)
 
 [blog](blog/index.html)
 </t>
-<t tx="leo.20170106135604.3"></t>
-<t tx="leo.20170106135605.2">@language md
-Title: 計算機程式 W14 範例整理
-Date: 2016-12-06 13:00
-Category: Course
-Tags: Brython
-Author: yen
-
-本週的學習重點在導入 Leo Editor &lt;a href="http://leoeditor.com/tutorial-programming.html"&gt;@clean&lt;/a&gt; 節點指令的用法, 利用子節點管理各章節的範例, 逐一將程式改寫為 Brython 格式後, 直接在瀏覽器中執行. 讓學員了解使用階層式架構管理資料的便利性.
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-以下為 &lt;a href="http://mde.tw/2016fallcp/course/Python3Programs.txt"&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;/a&gt; 中的 ch01 綜合範例, 其餘範例位於本 Leo Editor 專案檔中的 "Python3 程式範例" 節點, 請各組一一將範例程式碼與執行結果, 放入各學員的課程網誌中.
-
-本課程 W15 - W18 週將利用 &lt;a href="./../course/introduction_to_prog_python3_2012.pdf"&gt;introduction_to_prog_python3_2012.pdf&lt;/a&gt; 與 &lt;a href="./../course/python_for_everybody_2015.pdf"&gt;python_for_everybody_2015.pdf&lt;/a&gt; 中有關物件導向的說明, 並且配合 &lt;a href="https://github.com/mdecourse/webgame"&gt;https://github.com/mdecourse/webgame&lt;/a&gt; 倉儲中的 Leo Editor 專案, 希望各組能夠了解利用 Python3 與 Brython 語法處理&lt;a href="http://mde.tw/webgame/bs.html"&gt;靜態圖檔&lt;/a&gt;、&lt;a href="http://mde.tw/webgame/bunny.html"&gt;動態圖檔&lt;/a&gt;與&lt;a href="http://mde.tw/webgame/spacewar.html"&gt;網際遊戲&lt;/a&gt;的運作原理, 順利完成各組的期末報告.
-
-&lt;!-- 導入 FileSaver --&gt;
-&lt;script type="text/javascript" src="./../course/FileSaver.min.js"&gt;&lt;/script&gt;
-
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
-&lt;script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
-&lt;/script&gt;
-
-&lt;!-- 啟動 Brython --&gt;
-&lt;script&gt;
-window.onload=function(){
-brython(1);
-}
-&lt;/script&gt;
-@others</t>
 </tnodes>
 </leo_file>
